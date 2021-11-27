@@ -4,7 +4,7 @@ import requests
 import time
 
 
-START_URL = "https://www.windows2universe.org/our_solar_system/moons_table.html"
+START_URL = "https://en.wikipedia.org/wiki/List_of_brown_dwarfs"
 headers = ["name", "year_discovered", "discoverer", "distance_from_planet (km)", "diameter (km)", "orbital_period", "host_planet"]
 moons_data = []
 page = requests.get(START_URL, verify=False)
